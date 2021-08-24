@@ -28,8 +28,10 @@ var {
   
             var embed = new MessageEmbed();
             try {
-             Se conectou ao .setTitle(`:thumbsup: **Joined** \`${client.channels.cache.get(player.voiceChannel).name}\``)
-            } cembed.setDescription(`**Comandos vinculados a: ** <#${client.channels.cache.get(player.textChannel).id}>`)nembed.addField(`Códigos criados por:`, `**[WEBSITE](https://milrato.eu)**`, `Apenas incorporei no meu bot, seus ensinamentos.`)ei no meu bot//`) ot`) ot`) //``)
+              embed.setTitle(`:thumbsup: **Joined** \`${client.channels.cache.get(player.voiceChannel).name}\``)
+            } catch {}
+            try {
+              embed.setDescription(`**Commands bound to: ** <#${client.channels.cache.get(player.textChannel).id}>`)
               embed.addField(`<:Milrato:840259659163893820> Music Powered by Milrato.eu`, `**[Invite their Public Bot](https://discord.com/api/oauth2/authorize?client_id=784364932149280778&permissions=8&scope=bot)  •  [WEBSITE](https://milrato.eu)  •  [Get your OWN BOT](https://discord.gg/FQGXbypRf8)**`)
             } catch {}
 
